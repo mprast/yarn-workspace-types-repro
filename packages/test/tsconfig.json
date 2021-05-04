@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+      "outDir": "./lib",
+      "rootDir": "./src",
+      "strictNullChecks": true,
+      "noImplicitReturns": true,
+      "noImplicitAny": true,
+      "suppressImplicitAnyIndexErrors": true,
+      "target": "es6",
+      "module": "commonjs",
+      "jsx": "react",
+      "esModuleInterop": true,
+      "composite": true,
+      "inlineSourceMap": true
+    }
+}
