@@ -2,8 +2,5 @@
   "name": "test",
   "version": "0.0.1",
   "description": "test",
-  "main": "lib/index.js",
-  "dependencies": {
-    "@types/node": "^15.0.1"
-  }
+  "main": "lib/index.js"
 }

@@ -42,7 +42,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         [null, {
           "packageLocation": "./",
           "packageDependencies": [
-            ["lodash.isequal", "npm:4.5.0"],
+            ["@types/node", "npm:15.0.1"],
             ["typescript", "patch:typescript@npm%3A4.2.4#builtin<compat/typescript>::version=4.2.4&hash=a45b0e"]
           ],
           "linkType": "SOFT",
@@ -57,21 +57,11 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD",
         }]
       ]],
-      ["lodash.isequal", [
-        ["npm:4.5.0", {
-          "packageLocation": "./.yarn/cache/lodash.isequal-npm-4.5.0-f8b0f64d63-5b47e09464.zip/node_modules/lodash.isequal/",
-          "packageDependencies": [
-            ["lodash.isequal", "npm:4.5.0"]
-          ],
-          "linkType": "HARD",
-        }]
-      ]],
       ["test", [
         ["workspace:packages/test", {
           "packageLocation": "./packages/test/",
           "packageDependencies": [
-            ["test", "workspace:packages/test"],
-            ["@types/node", "npm:15.0.1"]
+            ["test", "workspace:packages/test"]
           ],
           "linkType": "SOFT",
         }]
@@ -90,7 +80,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",
           "packageDependencies": [
             ["yarn-workspace-types-repro", "workspace:."],
-            ["lodash.isequal", "npm:4.5.0"],
+            ["@types/node", "npm:15.0.1"],
             ["typescript", "patch:typescript@npm%3A4.2.4#builtin<compat/typescript>::version=4.2.4&hash=a45b0e"]
           ],
           "linkType": "SOFT",

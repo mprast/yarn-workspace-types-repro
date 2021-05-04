@@ -12,18 +12,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"lodash.isequal@npm:^4.5.0":
-  version: 4.5.0
-  resolution: "lodash.isequal@npm:4.5.0"
-  checksum: 5b47e094641c18a915497343894c66f7da6aebb9aaa2a3fcc5643455aaf29d19df60ebbed664c8374fb959c8b4ce96810ee6becd8a71ac58c6c2ca8d29762947
-  languageName: node
-  linkType: hard
-
 "test@workspace:packages/test":
   version: 0.0.0-use.local
   resolution: "test@workspace:packages/test"
-  dependencies:
-    "@types/node": ^15.0.1
   languageName: unknown
   linkType: soft
 
@@ -51,7 +42,7 @@ typescript@^4.2.4:
   version: 0.0.0-use.local
   resolution: "yarn-workspace-types-repro@workspace:."
   dependencies:
-    lodash.isequal: ^4.5.0
+    "@types/node": ^15.0.1
     typescript: ^4.2.4
   languageName: unknown
   linkType: soft
